@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: 'secondFont';
-  src: url('laba1/fonts/d9464-arkhip_font.ttf') format('truetype');
+  src: url('fonts/d9464-arkhip_font.ttf') format('truetype');
 }
 @font-face {
   font-family: 'thirdFont';
-  src: url('/fonts/impact2.ttf') format('truetype');
+  src: url('fonts/impact2.ttf') format('truetype');
 }
 @font-face {
   font-family: 'myFont';
-  src: url('/fonts/Myfont-Regular.ttf') format('truetype');
+  src: url('fonts/Myfont-Regular.ttf') format('truetype');
 }
 body {
   display: flex; 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex</title>
+</head>
+<body>
+    <header>
+        <h1>Flex-свойства</h1>
+        <div class = 'menu'>
+            <a href = "#first-property">display</a>
+            <a href = '#second-property'>flex-direction</a>
+            <a href = '#third-property'>flex-wrap</a>
+        </div>
+    </header>
+    <main>
+        <h2>Шпаргалка по FlexBox</h2>
+        <div class = 'property flex' id ='first-property'>
+            <h3>display</h3>
+            <div class = 'buttons'>
+                <button id = 'flex-button' class = 'active'>flex</button>
+                <button id = 'inline-flex-button'>inline-flex</button>
+            </div>
+            <div class = 'picture'>
+                <p>Здесь текст</p>
+                <div class = 'squares'>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+            </div>
+            <div class = 'description'>
+                <p class = 'first-descrip'>Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.</p>
+                <p class = 'second-descrip'>всем элементам.</p>
+                <div class = 'property-description'>
+                    <h5>flex</h5>
+                    <p>
+                        Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.</p>
+                </div>
+                <div class = 'property-description'>
+                    <h5>inline-flex</h5>
+                    <p>
+                        Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.</p>
+                </div>
+            </div>
+        </div>
+        <div class = 'property' id ='second-property'>
+            <h3>flex-direction</h3>
+            <div class = 'buttons'>
+                <button id = 'row-button' class = 'active'>row</button>
+                <button id = 'row-reverse-button'>row-reverse</button>
+                <button id = 'column-button'>column</button>
+                <button id = 'column-reverse-button'>column-reverse</button>
+            </div>
+            <div class = 'picture'>
+                <div class = 'squares'>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+            </div>
+            <div class = 'description'>
+                <p class = 'first-descrip'>Свойство flex-direction задаёт направление основных осей в контейнере и тем самым определяет положение флексов в контейнере. На само направление также влияет значение атрибута dir у контейнера.</p>
+                <p class = 'second-descrip'>flex контейнерам.</p>
+                <div class = 'property-description'>
+                    <h5>row</h5>
+                    <p>
+                        Главная ось направлена так же, как и ориентация текста, по умолчанию слева направо. Если значение dir задано как rtl, то направление оси идёт справа налево.</p>
+                </div>
+                <div class = 'property-description'>
+                    <h5>row-reverse</h5>
+                    <p>
+                        Похоже на значение row, но меняются местами начальная и конечная точки и главная ось направлена справа налево. Если значение dir задано как rtl, то направление оси идёт слева направо.</p>
+                </div>
+            </div>
+            <div class = 'property-description'>
+                <h5>column</h5>
+                <p>
+                    Главная ось располагается вертикально и направлена сверху вниз.</p>
+            </div>
+                <div class = 'property-description'>
+                    <h5>column-reverse</h5>
+                    <p>
+                        Главная ось располагается вертикально, но меняется положение начальной и конечной точек и ось направлена снизу вверх.</p>
+            </div>
+        </div>
+        <div class = 'property' id ='third-property'>
+            <h3>flex-wrap</h3>
+            <div class = 'buttons'>
+                <button id = 'nowrap-button' class = 'active'>nowrap</button>
+                <button id = 'wrap-button'>wrap</button>
+                <button id = 'wrap-reverse-button'>wrap-reverse</button>
+            </div>
+            <div class = 'picture'>
+                <div class = 'squares'>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+            </div>
+            <div class = 'description'>
+                <p class = 'first-descrip'>Свойство flex-wrap Указывает, следует ли флексам располагаться в одну строку или можно занять несколько строк. Если перенос строк допускается, то свойство также позволяет контролировать направление, в котором выкладываются строки.</p>
+                <p class = 'second-descrip'>flex контейнерам.</p>
+                <div class = 'property-description'>
+                    <h5>nowrap</h5>
+                    <p>
+                        Флексы выстраиваются в одну линию.</p>
+                </div>
+                <div class = 'property-description'>
+                    <h5>wrap</h5>
+                    <p>
+                        Флексы выстраиваются в несколько строк, их направление задаётся свойством flex-direction.</p>
+                </div>
+            </div>
+            <div class = 'property-description'>
+                <h5>wrap-reverse</h5>
+                <p>
+                    Флексы выстраиваются в несколько строк, в направлении, противоположном flex-direction.</p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src = 'script.js'></script>
+</html>

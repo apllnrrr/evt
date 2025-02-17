@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', serif;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: fit-content;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    font-size: 32px;
+}
+header .menu {
+    font-size: 20px;
+    justify-content: space-between;
+}
+header .menu a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 10px;
+}
+main {
+    padding: 10px;
+}
+.property {
+    margin-bottom: 50px;
+}
+button {
+    background-color:transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    margin-right: 10px;
+    border: 3px solid rgb(167, 192, 227);
+}
+button.active {
+    background-color:rgb(167, 192, 227) ;
+}
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.picture {
+    border: 3px solid rgb(167, 192, 227);
+    padding: 15px;
+}
+.squares {
+    border: 3px dotted rgb(216, 216, 216);
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(3, 50px);
+    width: fit-content;
+    height: 160px;
+    grid-gap: 5px;
+}
+.squares div {
+    background-color:rgb(167, 192, 227) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+.picture p{
+    margin: 0;
+}
+.second-descrip::before{
+  content:"Наследуется: ";
+  font-weight: 600;
+}
+.third-descrip::before{
+    content:"Применяется ко: ";
+    font-weight: 600;
+}
+.fourth-descrip::before{
+  content:"Значение по умолчанию: ";
+  font-weight: 600;
+}
+h5 {
+    margin-bottom: 10px;
+}
+#first-property.start .squares {
+  display: grid;
+  justify-items: start;
+}
+#first-property.end .squares {
+  display: grid;
+  justify-items: end;
+}
+#first-property.center .squares {
+  display: grid;
+  justify-items: center;
+}
+#first-property.stretch .squares {
+  display: grid;
+  justify-items: stretch;
+}
+#first-property.stretch .squares div {
+    display: grid;
+    width: unset;
+    height: unset;
+}
+#second-property .squares div {
+    width: 100%;
+}
+#second-property.start .squares  {
+    display: grid;
+    align-items: start;
+}
+#second-property.end .squares  {
+    display: grid;
+    align-items: end;
+}
+#second-property.center .squares {
+    display: grid;
+    align-items: center;
+}
+#second-property.stretch .squares div {
+    display: grid;
+    width: unset;
+    height: unset;
+}
+#third-property.row .squares {
+    display: grid;
+    grid-auto-flow: row;
+}
+#third-property.column .squares {
+    display: grid;
+    grid-auto-flow: column;
+}
+#third-property.dense .squares {
+    display: grid;
+    grid-auto-flow: dense;
+}

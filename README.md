@@ -25,7 +25,7 @@
 - CSS
 - Python
 - Jira
-### :hammer_and_wrench: Languages and Tools :
+## :hammer_and_wrench: Языки и Инструменты :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" title="Canva" alt="Canva" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>&nbsp;
@@ -52,5 +52,6 @@ console.log('Your age is ' + a);
 ## Языки
 - English B2
 - Русский
-
+## :fire: Моя статистика:
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=apllnrrr&theme=dark&background=000000)](https://git.io/streak-stats)
 ![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)

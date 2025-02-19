@@ -1,6 +1,7 @@
 # Близнюк Аполлинария
 ## О себе
 Студентка 3 курса БГУИР
+*Ссылка на деплой:* https://apllnrrr.github.io/evt/
 ## Контактная информация
 - **linkedIn:** *Аполлинария Близнюк*
 - **email:** *polinablizniuk@gmail.com*
@@ -27,3 +28,4 @@ console.log('Your age is ' + a);
 ## Языки
 - English B2
 - Русский
+![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)

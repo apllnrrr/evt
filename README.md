@@ -11,5 +11,5 @@
 - CSS
 - Python
 ## Пример кода 
-`const a = 10; 
- console.log('Your age is ' + a)`
+`const a = 10;`
+`console.log('Your age is ' + a)`

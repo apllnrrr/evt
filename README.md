@@ -55,6 +55,6 @@ console.log('Your age is ' + a);
 ## :fire: Моя статистика:
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=apllnrrr&theme=cobalt&border_radius=10&locale=ru)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apllnrrr&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apllnrrr&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)

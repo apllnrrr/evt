@@ -14,8 +14,7 @@
 ## О себе
 - :school: БГУИР 3 курс
 - :office: PO
-
-*Ссылка на деплой:* https://apllnrrr.github.io/evt/
+- :white_check_mark: https://apllnrrr.github.io/evt/
 ## Контактная информация
 - **linkedIn:** *Аполлинария Близнюк*
 - **email:** *polinablizniuk@gmail.com*

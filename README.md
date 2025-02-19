@@ -28,4 +28,5 @@ console.log('Your age is ' + a);
 ## Языки
 - English B2
 - Русский
+
 ![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)

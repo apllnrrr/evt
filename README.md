@@ -33,5 +33,5 @@ console.log('Your age is ' + a);
 ![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)
 
 <div id="header" align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDhlbGdxdDJsaHB4dmVyMHJ6d2RkdWcxenZ3Y2p0YWFyZTF5bm51OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72EX5QZ9N9d51dqo/giphy.gif" width="100"/>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDhlbGdxdDJsaHB4dmVyMHJ6d2RkdWcxenZ3Y2p0YWFyZTF5bm51OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72EX5QZ9N9d51dqo/giphy.gif" width="400"/>
 </div>

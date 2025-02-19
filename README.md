@@ -53,5 +53,6 @@ console.log('Your age is ' + a);
 - English B2
 - Русский
 ## :fire: Моя статистика:
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=apllnrrr&theme=dark&background=000000)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=apllnrrr&theme=cobalt&border_radius=10&locale=ru" alt="GitHub Streak" /></a>
+
 ![IMG_5051](https://github.com/user-attachments/assets/00e59d8e-9bbd-4e4b-9b5e-83ef42dad751)

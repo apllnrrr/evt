@@ -1,5 +1,5 @@
 # Близнюк Аполлинария
-<div id="header" align="center" margin = "10px">
+<div id="header" align="center" style = 'margin: 10px;'>
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDhlbGdxdDJsaHB4dmVyMHJ6d2RkdWcxenZ3Y2p0YWFyZTF5bm51OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72EX5QZ9N9d51dqo/giphy.gif" width="400"/>
 </div>
 <div id="badges" align="center" >
